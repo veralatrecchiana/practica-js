@@ -28,7 +28,7 @@ let auto={
             this.posicion += n;
         }
     },
-    retroceder: function(n) {
+    retroceder: function(n){
         if (n > 0) {
             this.posicion -= n;
         }
@@ -68,7 +68,7 @@ let ironMan={
     energia:100,
     getPoder: function(fn){
         this.energia -= 10;
-        return "Poder elegido de " + this.nombre + ": " + this.poderes[fn] + ". Energia restante: " + this.energia + ".",
+            return "Poder elegido de " + this.nombre + ": " + this.poderes[fn] + ". Energia restante: " + this.energia + ".";
     }
 }
 
@@ -84,7 +84,7 @@ let hulk={
     energia: 100,
     getPoder: function(fn){
         this.energia -= 10;
-        return "Poder elegido de " + this.nombre + ": " + this.poderes[fn] + ". Energia restante: " + this.energia + ".",
+        return "Poder elegido de " + this.nombre + ": " + this.poderes[fn] + ". Energia restante: " + this.energia + ".";
     }
 }
 

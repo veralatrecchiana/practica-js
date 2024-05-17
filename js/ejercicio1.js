@@ -71,7 +71,7 @@ function anterior(numero){
     return numero-1;
 }
 
-funcion triple(numero){
+function triple(numero){
     return numero*3;
 }
 
